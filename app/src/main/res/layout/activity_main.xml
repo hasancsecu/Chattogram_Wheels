@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        app:popupTheme="@style/ToolbarTheme">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ToolbarTheme"
+            android:textSize="22sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:layout_gravity="center" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_box"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="25dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_location_searching_black_24dp"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/sourceId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center_vertical"
+                android:textColor="@color/blue"
+                android:hint="Enter Source"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_location_on_black_24dp"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/destinationId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:textColor="@color/blue"
+                android:gravity="center_vertical"
+                android:hint="Enter Destination"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/searchBtnId"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_box"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/searchViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Result"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/blue"
+        android:paddingLeft="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_box"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/noVehicleId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/noVehicle"
+            android:textColor="@color/blue"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="gone"
+            android:fontFamily="@font/open_sans_bold"
+            />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="0dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

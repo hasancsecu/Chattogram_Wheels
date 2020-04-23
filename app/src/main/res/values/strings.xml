@@ -1,0 +1,409 @@
+<resources>
+    <string name="app_name">Chattogram Wheels</string>
+    <string name="suggest">Suggest New Route</string>
+    <string name="rate">Rate This App</string>
+    <string name="about">About</string>
+    <string name="logout">Exit</string>
+    <string name="home">Home</string>
+    <string name="profile">All Vehicles</string>
+    <string name="noVehicle">No Direct Vehicle Available!</string>
+    <string name="welcome">Welcome to New Route Suggestion. Your Suggestion is Valuable for us.</string>
+    <string name="routeSuggestion">Note: An Active Internet Connection is Required to Send your Suggestion.
+        Please Turn on Your Internet Connection Otherwise Your Suggestion Won\'t be Sent. </string>
+    <string name="error">ERROR!!!\nAn Active Internet Connection is Required to See This Page.
+        Please Turn on Your Internet Connection and Try again!</string>
+    <string name="rta_dialog_title">Rate This App</string>
+    <string name="rta_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rta_dialog_ok">Rate now</string>
+    <string name="rta_dialog_cancel">Later</string>
+    <string name="exitTitle">Exit</string>
+    <string name="exitMsg">Do you want to exit?</string>
+    <string name="adText">An Advertisement will be shown here</string>
+    <string name="banner_app_id">ca-app-pub-4805956057529447~5307565482</string>
+    <string name="banner_unit_id" >ca-app-pub-4805956057529447/6569316899</string>
+    <string name="google_maps_key">AIzaSyAXEIkjpVmjjE3NdRnoNB-yCZTlcR0AhfE</string>
+
+    <string-array name="bus_names">
+        <item>1 NO BUS</item>
+        <item>2 NO BUS</item>
+        <item>3 NO BUS(lg)</item>
+        <item>3 NO BUS(md)</item>
+        <item>3 NO BUS(sm)</item>
+        <item>4 NO BUS</item>
+        <item>6 NO BUS</item>
+        <item>7 NO BUS</item>
+        <item>8 NO BUS</item>
+        <item>10 NO BUS</item>
+        <item>11 NO BUS</item>
+        <item>8 NO LEGUNA</item>
+        <item>15 NO LEGUNA</item>
+        <item>16 NO LEGUNA</item>
+    </string-array>
+
+    <string-array name="bus_type">
+        <item>Local</item>
+        <item>Local</item>
+        <item>Sitting</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+    </string-array>
+
+    <string-array name="NewMarket">
+        <item>22.334066</item>
+        <item>91.832280</item>
+    </string-array>
+
+    <string-array name="Hathazari">
+        <item>22.498377</item>
+        <item>91.807372</item>
+    </string-array>
+
+    <string-array name="Alonkar">
+        <item>22.358583</item>
+        <item>91.782279</item>
+    </string-array>
+
+    <string-array name="CU">
+        <item>22.475901</item>
+        <item>91.814038</item>
+    </string-array>
+
+    <string-array name="Bohoddarhat">
+        <item>22.368493</item>
+        <item>91.843771</item>
+    </string-array>
+
+    <string-array name="KaptaiRasta">
+        <item>22.394486</item>
+        <item>91.868591</item>
+    </string-array>
+
+    <string-array name="Foteyabad">
+        <item>22.448099</item>
+        <item>91.818355</item>
+    </string-array>
+
+    <string-array name="Vatiary">
+        <item>22.424712</item>
+        <item>91.745833</item>
+    </string-array>
+
+    <string-array name="Laldighi">
+        <item>22.338955</item>
+        <item>91.838021</item>
+    </string-array>
+
+    <string-array name="SeaBeach">
+        <item>22.240439</item>
+        <item>91.818144</item>
+    </string-array>
+
+    <string-array name="Oxygen">
+        <item>22.393578</item>
+        <item>91.821527</item>
+    </string-array>
+
+    <string-array name="Kalurghat">
+        <item>22.397236</item>
+        <item>91.885856</item>
+    </string-array>
+
+    <string-array name="Kathgor">
+        <item>22.259659</item>
+        <item>91.792133</item>
+    </string-array>
+
+    <string-array name="TwoGate">
+        <item>22.366524</item>
+        <item>91.822868</item>
+    </string-array>
+
+    <string-array name="Kotowali">
+        <item>22.333291</item>
+        <item>91.836621</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>New Market</item>
+        <item>Enayet Bazar</item>
+        <item>Kazir Dewri</item>
+        <item>Almas</item>
+        <item>Wasa Mor</item>
+        <item>GEC Circle</item>
+        <item>2 No Gate</item>
+        <item>Boro Dighir Par</item>
+        <item>Muradpur</item>
+        <item>Bibirhat</item>
+        <item>Aman Bazar</item>
+        <item>Oxygen</item>
+        <item>Chowdhuri Hat</item>
+        <item>Foteyabad</item>
+        <item>CU 1 No Gate</item>
+        <item>Hathazari</item>
+        <item>MehediBag</item>
+        <item>Golpahar</item>
+        <item>CMC Chittagong Medical</item>
+        <item>Probortok</item>
+        <item>Pachlaish</item>
+        <item>Laldighi</item>
+        <item>Andorkilla</item>
+        <item>Siraj-Ud-Doula Road</item>
+        <item>Chawkbazar</item>
+        <item>Kapashgola</item>
+        <item>Badurtola</item>
+        <item>Bohoddarhat</item>
+        <item>Sholoshohor</item>
+        <item>Jamalkhan</item>
+        <item>Bohoddarhat Police Box</item>
+        <item>Bohoddarhat Bus Terminal</item>
+        <item>Shorafot Petrol Pump</item>
+        <item>CMP Rastar Matha</item>
+        <item>Kaptai Rastar Matha</item>
+        <item>DC Hill</item>
+        <item>Tiger Pass</item>
+        <item>Lalkhan Bazar</item>
+        <item>GEC Goribullah Shah</item>
+        <item>Jhautola</item>
+        <item>A K Khan</item>
+        <item>Kornel Hat</item>
+        <item>Vatiary</item>
+        <item>Bhatiary</item>
+        <item>Dewan Hat</item>
+        <item>Badamtoli Mor</item>
+        <item>Agrabad</item>
+        <item>Barek Building</item>
+        <item>Sont Gola</item>
+        <item>EPZ</item>
+        <item>Bondortila</item>
+        <item>Cement Crossing</item>
+        <item>Kathgor</item>
+        <item>Sea Beach</item>
+        <item>Boropul</item>
+        <item>Alonkar</item>
+        <item>Bayejid</item>
+        <item>Kalurghat</item>
+        <item>Noya Bazar</item>
+        <item>BRTC</item>
+        <item>Baitush Shorof</item>
+        <item>Abul Biri</item>
+        <item>Pahartoli Bazar</item>
+        <item>Pahartoli Post Office</item>
+        <item>Kotowali</item>
+        <item>Eidgah Mor</item>
+        <item>Lucky Hotel</item>
+    </string-array>
+
+    <string-array name="leguna8">
+        <item>2 No Gate</item>
+        <item>Bayejid</item>
+        <item>Oxygen</item>
+    </string-array>
+
+    <string-array name="leguna15">
+        <item>New Market</item>
+        <item>BRTC</item>
+        <item>Baitush Shorof</item>
+        <item>Dewan Hat</item>
+        <item>Eidgah Mor</item>
+        <item>Abul Biri</item>
+        <item>Pahartoli Bazar</item>
+        <item>Lucky Hotel</item>
+        <item>Alonkar</item>
+    </string-array>
+
+    <string-array name="leguna16">
+        <item>Kotowali</item>
+        <item>New Market</item>
+        <item>BRTC</item>
+        <item>Kadamtoli</item>
+        <item>Tiger Pass</item>
+        <item>Pahartoli Post Office</item>
+        <item>Alonkar</item>
+    </string-array>
+
+    <string-array name="bus1">
+        <item>New Market</item>
+        <item>Laldighi</item>
+        <item>Andorkilla</item>
+        <item>Siraj-Ud-Doula Road</item>
+        <item>Chawkbazar</item>
+        <item>Kapashgola</item>
+        <item>Badurtola</item>
+        <item>Bohoddarhat</item>
+    </string-array>
+
+    <string-array name="bus2">
+        <item>New Market</item>
+        <item>Laldighi</item>
+        <item>Andorkilla</item>
+        <item>Jamalkhan</item>
+        <item>Chawkbazar</item>
+        <item>CMC Chittagong Medical</item>
+        <item>Probortok</item>
+        <item>2 No Gate</item>
+        <item>Sholoshohor</item>
+        <item>Muradpur</item>
+        <item>Bohoddarhat Police Box</item>
+        <item>Bohoddarhat Bus Terminal</item>
+        <item>Shorafot Petrol Pump</item>
+        <item>CMP Rastar Matha</item>
+        <item>Kaptai Rastar Matha</item>
+    </string-array>
+
+    <string-array name="bus3">
+        <item>New Market</item>
+        <item>DC Hill</item>
+        <item>Enayet Bazar</item>
+        <item>Love Lane</item>
+        <item>Kazir Dewri</item>
+        <item>Almas</item>
+        <item>Wasa Mor</item>
+        <item>GEC Circle</item>
+        <item>2 No Gate</item>
+        <item>Sholoshohor</item>
+        <item>Muradpur</item>
+        <item>Bibirhat</item>
+        <item>Aman Bazar</item>
+        <item>Oxygen</item>
+        <item>Boro Dighir Par</item>
+        <item>Chowdhuri Hat</item>
+        <item>Foteyabad</item>
+        <item>CU 1 No Gate</item>
+        <item>Hathazari</item>
+    </string-array>
+
+    <string-array name="bus3_md">
+        <item>New Market</item>
+        <item>DC Hill</item>
+        <item>Enayet Bazar</item>
+        <item>Love Lane</item>
+        <item>Kazir Dewri</item>
+        <item>Almas</item>
+        <item>Wasa Mor</item>
+        <item>GEC Circle</item>
+        <item>2 No Gate</item>
+        <item>Sholoshohor</item>
+        <item>Muradpur</item>
+        <item>Bibirhat</item>
+        <item>Aman Bazar</item>
+        <item>Oxygen</item>
+        <item>Boro Dighir Par</item>
+        <item>Chowdhuri Hat</item>
+        <item>Foteyabad</item>
+        <item>CU 1 No Gate</item>
+    </string-array>
+
+    <string-array name="bus3_sm">
+        <item>New Market</item>
+        <item>DC Hill</item>
+        <item>Enayet Bazar</item>
+        <item>Love Lane</item>
+        <item>Kazir Dewri</item>
+        <item>Almas</item>
+        <item>Mehedibag</item>
+        <item>Golpahar</item>
+        <item>CMC Chittagong Medical</item>
+        <item>Probortok</item>
+        <item>Pachlaish</item>
+        <item>Muradpur</item>
+        <item>Bibirhat</item>
+        <item>Aman Bazar</item>
+        <item>Oxygen</item>
+        <item>Boro Dighir Par</item>
+        <item>Chowdhuri Hat</item>
+        <item>Foteyabad</item>
+    </string-array>
+
+    <string-array name="bus4">
+        <item>New Market</item>
+        <item>Tiger Pass</item>
+        <item>Lalkhan Bazar</item>
+        <item>GEC Goribullah Shah</item>
+        <item>Jhautola</item>
+        <item>A K Khan</item>
+        <item>Kornel Hat</item>
+        <item>Vatiary</item>
+    </string-array>
+
+    <string-array name="bus6">
+        <item>Laldighi</item>
+        <item>New Market</item>
+        <item>Tiger Pass</item>
+        <item>Dewan Hat</item>
+        <item>Agrabad</item>
+        <item>Badamtoli Mor</item>
+        <item>Barek Building</item>
+        <item>Sont Gola</item>
+        <item>EPZ</item>
+        <item>Bondortila</item>
+        <item>Cement Crossing</item>
+        <item>Kathgor</item>
+        <item>Sea Beach</item>
+    </string-array>
+
+    <string-array name="bus7">
+        <item>New Market</item>
+        <item>Tiger Pass</item>
+        <item>Dewan Hat</item>
+        <item>Agrabad</item>
+        <item>Badamtoli Mor</item>
+        <item>Boropul</item>
+        <item>Alonkar</item>
+        <item>Vatiary</item>
+    </string-array>
+
+    <string-array name="bus8">
+        <item>New Market</item>
+        <item>Tiger Pass</item>
+        <item>Lalkhan Bazar</item>
+        <item>GEC Circle</item>
+        <item>2 No Gate</item>
+        <item>Bayejid</item>
+        <item>Oxygen</item>
+    </string-array>
+
+    <string-array name="bus10">
+        <item>Kalurghat</item>
+        <item>Kaptai Rastar Matha</item>
+        <item>Bohoddarhat</item>
+        <item>Muradpur</item>
+        <item>Sholoshohor</item>
+        <item>2 No Gate</item>
+        <item>GEC Circle</item>
+        <item>Lalkhan Bazar</item>
+        <item>Tiger Pass</item>
+        <item>Dewan Hat</item>
+        <item>Agrabad</item>
+        <item>Badamtoli Mor</item>
+        <item>Barek Building</item>
+        <item>Sont Gola</item>
+        <item>EPZ</item>
+        <item>Bondortila</item>
+        <item>Cement Crossing</item>
+        <item>Kathgor</item>
+    </string-array>
+
+    <string-array name="bus11">
+        <item>Vatiary</item>
+        <item>Kornel Hat</item>
+        <item>A K Khan</item>
+        <item>Noya Bazar</item>
+        <item>Bondortila</item>
+        <item>Sont Gola</item>
+        <item>EPZ</item>
+        <item>Bondortila</item>
+        <item>Cement Crossing</item>
+        <item>Kathgor</item>
+        <item>Sea Beach</item>
+    </string-array>
+
+</resources>

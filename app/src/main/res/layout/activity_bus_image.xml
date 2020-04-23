@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BusImageActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        app:titleTextColor="@color/blue"
+        app:popupTheme="@style/ToolbarTheme">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ToolbarTheme"
+            android:textSize="22sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:layout_gravity="center" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleTextId"
+            android:layout_marginBottom="30dp"
+            android:text="1 NO BUS"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bus"
+            android:id="@+id/vehicleImageId"
+            android:layout_marginBottom="30dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_unit_id">
+            </com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/adText3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:text="@string/adText"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:fontFamily="@font/open_sans"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

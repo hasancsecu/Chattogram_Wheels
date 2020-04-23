@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823253624827",
+    "firebase_url": "https://chattogramwheels-38940.firebaseio.com",
+    "project_id": "chattogramwheels-38940",
+    "storage_bucket": "chattogramwheels-38940.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823253624827:android:e79bbbb67a25bbde260d5e",
+        "android_client_info": {
+          "package_name": "com.xfinitive.chattogramwheels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823253624827-e9pachut0onjnq2gl42vdfhdpl96i234.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cfinitive.chattogramwheels",
+            "certificate_hash": "0fc5dffaa0560f87fdd988251315ad43014fa5f5"
+          }
+        },
+        {
+          "client_id": "823253624827-iis3ge2504asmbl3v8vi3djjgb6jejsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEo4JTcTNqPBqMDNTHFTqbJFFGJBKE8I8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823253624827-iis3ge2504asmbl3v8vi3djjgb6jejsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
